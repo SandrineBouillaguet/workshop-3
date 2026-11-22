@@ -1,0 +1,25 @@
+Création d'un site vitrine pour Thomas, Graphiste freelance
+
+Présentation du projet :
+
+Ce projet consiste à créer un site vitrine pour Thomas qui est Graphiste freelance, afin de présenter son activité.
+
+Technologies utilisées
+- HTML5 : structure et organisation des pages du site.
+- CSS3 : mise en forme, design et mise en page du site.
+- Google Fonts : intégration de la typographie Heebo.
+- W3C : pour la validation.
+- Mise en page Responsive
+- Prise en compte du poids des images
+
+
+Livrable
+Le projet est hébergé sur GitHub.
+
+Dépôt GitHub :
+https://github.com/sandrinebouillaguet/workshop-3
+
+Site en ligne
+Le site est accessible à l'adresse suivante :
+https://sandrinebouillaguet.github.io/workshop-3/
+
