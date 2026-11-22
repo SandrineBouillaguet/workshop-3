@@ -90,7 +90,10 @@ h1 {
     box-sizing: border-box;
     margin: auto;
 }
-h2 {font-weight: 400;font-size: 22px;padding-top: 20px;}
+h2 {
+    font-weight: 400;
+    font-size: 22px;
+    padding-top: 20px;}
 
 div#articles {
     display: flex;
@@ -143,12 +146,12 @@ article.article-blog {
 }
 .date-type {
     font-size: 18px;
-    display: flex;
-    gap: 25px;
+   
 }
 .projet-date {
     background-color: #142850 ;
     border-radius   : 16px;
+      
     color: #FFFFFF;
     font-weight: 900;
     font-size: 18px;
@@ -156,12 +159,14 @@ article.article-blog {
     width: 62px;
     height: 25px;
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
 .projet-type {
     color: #8695A4;
     font-size: 20px;
-    
+    margin-left: 30px;
 }
 p.project-description {
     font-size: 16px;
@@ -193,13 +198,10 @@ h3.contact-title {
 
 p#contact-intro {
     font-size: 20px;
+    max-width: 536px;
 }
 
 p#email {
-    font-size: 16px;
-}
-
-h3.contact-title {
     font-size: 16px;
 }
 
@@ -213,6 +215,7 @@ form {
     flex-direction: column;
     flex: 1;
     gap: 10px;
+
 }
 
 div#coordonnees {
@@ -221,6 +224,7 @@ div#coordonnees {
 
 label {
     font-size: 14px;
+
 }
 
 input,textarea, select {
@@ -257,6 +261,7 @@ footer {
 p#copyright {
     font-size: 14px;
     color: #21243D;
+
 }
 
 @media (max-width: 700px) {
