@@ -31,6 +31,7 @@ nav{
     font-weight: 700;
     font-size: 20px;
 }
+
 #menu-button{
     display: none;
 }
@@ -54,6 +55,7 @@ header {
     justify-content: center;
     gap: 25px;
 }
+
 h1 {
     font-weight: 700;
     font-size: 44px;
@@ -88,17 +90,18 @@ h1 {
     box-sizing: border-box;
     margin: auto;
 }
+
 h2 {
     font-weight: 400;
     font-size: 22px;
     padding-top: 20px;}
 
-div#articles {
+#articles {
     display: flex;
     justify-content: space-between;
-}
+    }
 
-article.article-blog {
+.article-blog {
     background-color: #FFFFFF;
     border-radius: 4px;
     width: 543px;
@@ -214,7 +217,6 @@ form {
     flex-direction: column;
     flex: 1;
     gap: 10px;
-
 }
 
 div#coordonnees {
@@ -260,7 +262,6 @@ footer {
 p#copyright {
     font-size: 14px;
     color: #21243D;
-
 }
 
 @media (max-width: 700px) {
